@@ -1,26 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import {
+  HashRouter,
+Route,
+  Switch
+} from "react-router-dom";
+import TripInspirationHeader from "./components/TripInspirationHeader";
+import TripInspirtionButtons from "./components/TripInspirationButtons";
+import TripInspirationChoice from "./components/TripInspirationChoice";
+import NotFound from "./components/NotFound";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+// import './App.css';
+
+const App = () => (
+    <div>
+        <TripInspirationHeader/>
+      <HashRouter>
+        <Switch>
+
+          <Route exact path="/" component={TripInspirtionButtons}/>
+          <Route path="/search/:search(country|region|language|multiple)" component={TripInspirationChoice}/>
+          <Route component={NotFound}/>
+        </Switch>
+        </HashRouter>
     </div>
   );
-}
+
 
 export default App;
