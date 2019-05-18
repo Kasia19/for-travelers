@@ -1,12 +1,13 @@
 import React from 'react';
 import {
-    Link
+ NavLink
 } from "react-router-dom";
 
 const NotFound = () => {
     return (
         <div>
-            <Link to="/"> Powrót do strony głównej</Link>
+            <h2> ERROR!!!</h2>
+            <NavLink className="btn" to="/"> Return to Home Page</NavLink>
         </div>
     );
 };

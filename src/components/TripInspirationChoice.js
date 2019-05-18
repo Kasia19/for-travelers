@@ -6,9 +6,9 @@ import TripInspirationMain from "./TripInspirationMain";
 const TripInspirationChoice = (props) => {
         return (
             <>
-                    <h1>Search by: {props.match.params.search}</h1>
-                    <button><NavLink to="/">Return to Home Page</NavLink></button>
-                    <TripInspirationMain data={{btn1:"country", btn2:"region", btn3:"language"}}/>
+                <h1>Search by: {props.match.params.search}</h1>
+                <TripInspirationMain data={props.match.params.search}/>
+                <NavLink to="/">Return to Home Page</NavLink>
             </>
         );
 
