@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {getDataCountry, getDataRegion, getDataLanguage} from "./SearchResult";
+// import {getData} from "./SearchResult";
 
 class TripInspirationMain extends Component {
     constructor(props) {
@@ -9,7 +9,8 @@ class TripInspirationMain extends Component {
             inputCountry: '',
             inputRegion: '',
             inputLanguage: '',
-            inputMultiple: '',
+            inputMultiLang: '',
+            inputMultiReg: '',
             byCountry: [],
             byRegion: [],
             byLanguage: [],
@@ -24,20 +25,49 @@ class TripInspirationMain extends Component {
             inputCountry: event.target.value,
             inputRegion: event.target.value,
             inputLanguage: event.target.value,
-            inputMultiple: event.target.value,
+            inputMultiLang: event.target.value,
+            inputMultiRe: event.target.value,
+
         })
+    };
+
+
+
+    getData = (elem) => {
+        fetch(`https://restcountries.eu/rest/v2/${elem}`).then(resp =>{
+            if(resp.ok){
+                return resp.json()
+            }
+            // else{
+            //     throw new Error("Incorrect {...}")
+            // }
+        }).then(json=>{
+            // gdy undefined jakis if  jak poprawne to do state
+            console.log(json);
+            this.setState(()=> ({
+                byCountry: [...json],
+                byRegion: [...json],
+                byLanguage: [...json],
+                byMultiple: [...json],
+            }))
+            return json
+        });
     };
 
     handleOnClick = (event) => {
         event.preventDefault();
         if (this.props.data === "country") {
-            return getDataCountry(this.state.inputCountry);
+            return this.getData(`name/${this.state.inputCountry}`);
         }
         if(this.props.data ==="region") {
-            return getDataRegion(this.state.inputRegion);
-         }
+            return this.getData(`region/${this.state.inputRegion}`);
+        }
         if(this.props.data ==="language") {
-            return getDataLanguage(this.state.inputLanguage);
+            return this.getData(`lang/${this.state.inputLanguage}`);
+        };
+        //https://restcountries.eu/rest/v2/{service}?fields={field};{field};{field}
+        if(this.props.data ==="multiple") {
+            return this.getData(`{service}?fields=${this.state.inputMultiReg};${this.state.inputMultiLang}`);
         };
     };
 
@@ -63,7 +93,7 @@ class TripInspirationMain extends Component {
                 <button onClick={this.handleOnClick}>Search</button>
             </form>
                 <ul>
-                  {/*{this.state.byCountry.map(e =>  <li>{e.name}</li>)}*/}
+                    {this.state.byCountry.map(e => (<li key={e.name}>{e.name}</li>))}
                 </ul>
 
             </div>
@@ -72,13 +102,15 @@ class TripInspirationMain extends Component {
                 <div>
                 <form>
                     <label> {this.props.data} choice: </label>
-                    <label> Region: </label>
-                    <input className="multiple_Region" type="text" value={this.state.inputValue} onChange={this.handleOnchange}/>
                     <label> Language: </label>
-                    <input className="multiple_Language"type="text" value={this.state.inputValue} onChange={this.handleOnchange}/>
+                    <input className="multiple_Language" type="text" value={this.state.inputMultiLang} onChange={this.handleOnchange}/>
+                    <label> Region: </label>
+                    <input className="multiple_Region" type="text" value={this.state.inputMultiReg} onChange={this.handleOnchange}/>
                     <button onClick={this.handleOnClick}>Search</button>
                 </form>
-
+                    <ul>
+                        {this.state.byMultiple.map(e => (<li key={e.name}>{e.name}</li>))}
+                    </ul>
                 </div>
             )
         }
