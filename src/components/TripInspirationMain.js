@@ -31,9 +31,6 @@ class TripInspirationMain extends Component {
     handleOnClick = (event) => {
         event.preventDefault();
         if (this.props.data === "country") {
-            // this.setState((prevState)=> ({
-            //     byCountry: [...prevState.byCountry, getDataCountry(this.state.inputCountry) ]
-            // }))
             return getDataCountry(this.state.inputCountry);
         }
         if(this.props.data ==="region") {

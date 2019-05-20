@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9be9b2af-7f78-4bfa-aa0a-27ea065f91b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/URL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchResult.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TripInspirationFetch.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NotFound.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NotFound.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TripInspirationButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TripInspirationButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TripInspirationChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TripInspirationChoice.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TripInspirationHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TripInspirationHeader.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TripInspirationMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TripInspirationMain.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -97,8 +89,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/TripInspirationMain.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+                  <folding>
+                    <element signature="e#0#39#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -106,8 +101,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/SearchResult.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="14" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="16" selection-end-column="14" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -115,8 +110,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/URL">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="17">
-                  <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="32" />
+                <state relative-caret-position="153">
+                  <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="46" />
                 </state>
               </provider>
             </entry>
@@ -172,9 +167,9 @@
         <option value="$PROJECT_DIR$/src/components/TripInspirationFetch.js" />
         <option value="$PROJECT_DIR$/src/components/TripInspirationChoice.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/SearchResult.js" />
         <option value="$PROJECT_DIR$/src/components/TripInspirationButtons.js" />
         <option value="$PROJECT_DIR$/src/components/NotFound.js" />
+        <option value="$PROJECT_DIR$/src/components/SearchResult.js" />
         <option value="$PROJECT_DIR$/src/components/TripInspirationMain.js" />
       </list>
     </option>
@@ -274,7 +269,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557946742254</updated>
       <workItem from="1557946743339" duration="869000" />
-      <workItem from="1557999329587" duration="34848000" />
+      <workItem from="1557999329587" duration="46191000" />
     </task>
     <task id="LOCAL-00001" summary="Trip Inspiration start">
       <created>1558004777150</created>
@@ -290,11 +285,25 @@
       <option name="project" value="LOCAL" />
       <updated>1558018866828</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Trip Inspiration 18.05.2019">
+      <created>1558178477289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1558178477289</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Trip Inspiration 18.05.2019 v2">
+      <created>1558203590623</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558203590623</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35717000" />
+    <option name="totallyTimeSpent" value="47060000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -345,7 +354,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Trip Inspiration start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trip Inspiration start" />
+    <MESSAGE value="Trip Inspiration 18.05.2019" />
+    <MESSAGE value="Trip Inspiration 18.05.2019 v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trip Inspiration 18.05.2019 v2" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
@@ -395,34 +406,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/SearchResult.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="14" lean-forward="true" selection-start-line="5" selection-start-column="8" selection-end-line="16" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/URL">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/NotFound.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TripInspirationHeader.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -456,10 +443,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TripInspirationHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/URL">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/SearchResult.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TripInspirationMain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="51" column="23" lean-forward="true" selection-start-line="51" selection-start-column="23" selection-end-line="51" selection-end-column="23" />
+        <state relative-caret-position="119">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
