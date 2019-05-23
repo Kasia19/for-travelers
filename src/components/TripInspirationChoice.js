@@ -8,7 +8,7 @@ const TripInspirationChoice = (props) => {
             <>
                 <h1>Search by: {props.match.params.search}</h1>
                 <TripInspirationMain data={props.match.params.search}/>
-                <NavLink to="/">Return to Home Page</NavLink>
+                <NavLink to="/" className="btn link-btn return-btn">Return to Home Page</NavLink>
             </>
         );
 

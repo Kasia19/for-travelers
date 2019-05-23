@@ -72,3 +72,22 @@ https://restcountries.eu/rest/v2/alpha/col
     }],
     "cioc": "COL"
 }]
+
+
+
+
+Unsplash Developers - zdjęcia
+https://api.unsplash.com/photos/?client_id=93127b2fb373ec256a09fc439b8663932c93d4bd78993ce5f4e708b2f585b9ea/search/photos?query=nepal
+
+https://api.unsplash.com/search/photos?query=nepal
+
+
+
+http://battuta.medunes.net/api/country/all/?key=ef105569401a632963968018de6f0060
+
+http://battuta.medunes.net/api/country/search/?country={COUNTRY_NAME_HINT}&key=ef105569401a632963968018de6f0060
+
+
+
+googl api key
+321943885376-4ida1e8ug4qrk6vqfcv1pfgb7i0glrtq.apps.googleusercontent.com

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-// import {getData} from "./SearchResult";
+import { NavLink } from "react-router-dom";
+
 
 class TripInspirationMain extends Component {
     constructor(props) {
@@ -25,14 +26,23 @@ class TripInspirationMain extends Component {
             inputCountry: event.target.value,
             inputRegion: event.target.value,
             inputLanguage: event.target.value,
-            inputMultiLang: event.target.value,
-            inputMultiRe: event.target.value,
+
+        })
+    };
+    handleOnchangeMultiReg = (event) => {
+        event.preventDefault();
+        this.setState({
+            inputMultiReg: event.target.value,
 
         })
     };
 
-
-
+    handleOnchangeMultiLang = (event) => {
+        event.preventDefault();
+        this.setState({
+            inputMultiLang: event.target.value,
+        })
+    };
     getData = (elem) => {
         fetch(`https://restcountries.eu/rest/v2/${elem}`).then(resp =>{
             if(resp.ok){
@@ -43,7 +53,7 @@ class TripInspirationMain extends Component {
             // }
         }).then(json=>{
             // gdy undefined jakis if  jak poprawne to do state
-            console.log(json);
+            // console.log(json);
             this.setState(()=> ({
                 byCountry: [...json],
                 byRegion: [...json],
@@ -67,7 +77,7 @@ class TripInspirationMain extends Component {
         };
         //https://restcountries.eu/rest/v2/{service}?fields={field};{field};{field}
         if(this.props.data ==="multiple") {
-            return this.getData(`{service}?fields=${this.state.inputMultiReg};${this.state.inputMultiLang}`);
+            return this.getData(`all?fields=${this.state.inputMultiLang};${this.state.inputMultiReg}`);
         };
     };
 
@@ -88,30 +98,30 @@ class TripInspirationMain extends Component {
         return (
             <div>
             <form>
-                <label>Type {this.props.data} you want to visit: </label>
-                <input type="text" value={this.input()} onChange={this.handleOnchange}/>
-                <button onClick={this.handleOnClick}>Search</button>
+                <label className="input-label">Type {this.props.data} you want to visit: </label>
+                <input type="text"  value={this.input()} onChange={this.handleOnchange}/>
+                <button className="input-btn btn" onClick={this.handleOnClick}>Search</button>
             </form>
                 <ul>
-                    {this.state.byCountry.map(e => (<li key={e.name}>{e.name}</li>))}
+                    {this.state.byCountry.map(e => (<li key={e.name}><NavLink exact to={`/search/${this.props.data}/${e.name}`} className="btn link-btn country-list" >{e.name}</NavLink></li>))}
                 </ul>
-
             </div>
         )}  else {
             return (
                 <div>
                 <form>
-                    <label> {this.props.data} choice: </label>
-                    <label> Language: </label>
-                    <input className="multiple_Language" type="text" value={this.state.inputMultiLang} onChange={this.handleOnchange}/>
-                    <label> Region: </label>
-                    <input className="multiple_Region" type="text" value={this.state.inputMultiReg} onChange={this.handleOnchange}/>
-                    <button onClick={this.handleOnClick}>Search</button>
+                    <label  className="input-label"> {this.props.data} choice: </label>
+                    <label  className="input-label"> Language: </label>
+                    <input className="multiple_Language"  type="text" value={this.state.inputMultiLang} onChange={this.handleOnchangeMultiLang}/>
+                    <label  className="input-label"> Region: </label>
+                    <input className="multiple_Region"  type="text" value={this.state.inputMultiReg} onChange={this.handleOnchangeMultiReg}/>
+                    <button className="input-btn btn" onClick={this.handleOnClick}>Search</button>
                 </form>
-                    <ul>
-                        {this.state.byMultiple.map(e => (<li key={e.name}>{e.name}</li>))}
+                   <ul>
+                       {this.state.byMultiple.map(e => (<li key={e.name}><NavLink to={`/search/${this.props.data}/${e.name}`} className="btn link-btn country-list" >{e.name}</NavLink></li>))}
                     </ul>
                 </div>
+
             )
         }
 

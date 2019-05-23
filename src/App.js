@@ -8,6 +8,7 @@ import {
 import TripInspirationHeader from "./components/TripInspirationHeader";
 import TripInspirationChoice from "./components/TripInspirationChoice";
 import NotFound from "./components/NotFound";
+import CountryPage from "./components/CountryPage";
 
 
 
@@ -19,7 +20,9 @@ const App = () => (
       <HashRouter>
         <Switch>
           <Route exact path="/" component={TripInspirationHeader }/>
-          <Route path="/search/:search(country|region|language|multiple)" component={TripInspirationChoice}/>
+            <Route exact path="/search/:search(country|region|language|multiple)/:country" component={CountryPage }/>
+            <Route path="/search/:search(country|region|language|multiple)" component={TripInspirationChoice}/>
+
           <Route component={NotFound}/>
         </Switch>
       </HashRouter>
