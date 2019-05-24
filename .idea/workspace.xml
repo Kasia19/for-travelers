@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9be9b2af-7f78-4bfa-aa0a-27ea065f91b9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/CountryInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/CountryPage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Map.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/Blank_world_map_pusta_mapa_świata.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/Blank_world_map_pusta_mapa_świata.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mapa1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mapa1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mapa2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mapa2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/mapa3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/mapa3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/obraz-mapa-swiata-x-na-plotnie-szary,trmkkcspwmkbqbxb.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/obraz-mapa-swiata-x-na-plotnie-szary,trmkkcspwmkbqbxb.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/trip-inspirationlayout.xd" beforeDir="false" afterPath="$PROJECT_DIR$/src/images/trip-inspirationlayout.xd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/URL" beforeDir="false" afterPath="$PROJECT_DIR$/src/URL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TripInspirationButtons.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TripInspirationButtons.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TripInspirationChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TripInspirationChoice.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CountryInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountryInfo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/TripInspirationHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TripInspirationHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TripInspirationMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TripInspirationMain.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45745322">
+    <splitter split-orientation="horizontal" split-proportion="0.36476257">
       <split-first>
         <leaf>
           <file pinned="false" current-in-tab="false">
@@ -68,8 +57,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
+                <state relative-caret-position="446">
+                  <caret line="28" selection-start-line="28" selection-end-line="28" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -80,8 +69,11 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/CountryInfo.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+                <state relative-caret-position="177">
+                  <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -99,14 +91,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/TripInspirationHeader.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="272">
-                  <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="34">
+                  <caret line="2" selection-start-line="2" selection-end-line="2" />
                 </state>
               </provider>
             </entry>
@@ -118,11 +107,6 @@
                   <caret line="92" column="72" selection-start-line="92" selection-start-column="72" selection-end-line="92" selection-end-column="72" />
                 </state>
               </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/google api key.json">
-              <provider selected="true" editor-type-id="text-editor" />
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
@@ -140,11 +124,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/TripInspirationMain.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="109">
-                  <caret line="105" column="59" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
+                <state relative-caret-position="140">
+                  <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Map.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="255">
+                  <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -197,8 +190,9 @@
         <option value="$PROJECT_DIR$/src/components/CountryPage.js" />
         <option value="$PROJECT_DIR$/src/components/TripInspirationMain.js" />
         <option value="$PROJECT_DIR$/src/URL" />
-        <option value="$PROJECT_DIR$/src/components/CountryInfo.js" />
         <option value="$PROJECT_DIR$/src/components/TripInspirationHeader.js" />
+        <option value="$PROJECT_DIR$/src/components/Map.js" />
+        <option value="$PROJECT_DIR$/src/components/CountryInfo.js" />
       </list>
     </option>
   </component>
@@ -231,6 +225,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="for-travelers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="for-travelers" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -260,8 +260,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Workshop\for-travelers\src" />
+      <recent name="D:\Workshop\for-travelers\src\images" />
       <recent name="D:\Workshop\for-travelers\src\components" />
+      <recent name="D:\Workshop\for-travelers\src" />
       <recent name="D:\Workshop\for-travelers\images" />
     </key>
   </component>
@@ -304,7 +305,7 @@
       <option name="presentableId" value="Default" />
       <updated>1557946742254</updated>
       <workItem from="1557946743339" duration="869000" />
-      <workItem from="1557999329587" duration="82806000" />
+      <workItem from="1557999329587" duration="96003000" />
     </task>
     <task id="LOCAL-00001" summary="Trip Inspiration start">
       <created>1558004777150</created>
@@ -348,11 +349,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558354840992</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Trip Inspiration 23.05.2019 v5">
+      <created>1558648162208</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1558648162208</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83675000" />
+    <option name="totallyTimeSpent" value="96872000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -407,7 +415,8 @@
     <MESSAGE value="Trip Inspiration 18.05.2019 v2" />
     <MESSAGE value="Trip Inspiration 20.05.2019 v3" />
     <MESSAGE value="Trip Inspiration 20.05.2019 v4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trip Inspiration 20.05.2019 v4" />
+    <MESSAGE value="Trip Inspiration 23.05.2019 v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trip Inspiration 23.05.2019 v5" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/logo.svg">
@@ -463,53 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TripInspiration.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="12" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CountryPage.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TripInspirationChoice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TripInspirationMain.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="105" column="59" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/images/api google photos.PNG">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -523,6 +485,39 @@
     <entry file="file://$PROJECT_DIR$/google api key.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/ancient-architect-architecture-2104882.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/images/worldHigh.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CountryPage.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TripInspiration.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TripInspirationMain.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TripInspirationButtons.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -533,20 +528,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/images/ancient-architect-architecture-2104882.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CountryInfo.js">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="60" column="25" selection-start-line="60" selection-start-column="25" selection-end-line="60" selection-end-column="25" />
+        <state relative-caret-position="446">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TripInspirationHeader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="84" selection-start-line="16" selection-start-column="84" selection-end-line="16" selection-end-column="84" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TripInspirationChoice.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CountryInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="35" column="3" selection-start-line="35" selection-start-column="3" selection-end-line="35" selection-end-column="3" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
