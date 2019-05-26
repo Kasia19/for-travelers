@@ -1,0 +1,46 @@
+@import "mixins";
+.input {
+  @include boxSize();
+  width: 200px;
+  height: 15px;
+  border-radius: 10px;
+  background-color: #d9e1e8;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid black;
+  &:hover {
+    box-shadow: inset 0px 0px 63px -18px rgba(29,149,235,1);
+
+  }
+  &:focus {
+    box-shadow: inset 0px 0px 63px -18px rgba(29,149,235,1);
+
+  }
+}
+.input-label {
+  font-weight: bold;
+  font-size: 18px;
+}
+ul {
+  list-style-type: none;
+
+}
+.country-list {
+  box-sizing:border-box;
+  font-size: 18px;
+  margin-inline-start: -30px;
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+.main-search-page {
+
+}
+.search-page {
+  @include boxSizeSmall();
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

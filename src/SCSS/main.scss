@@ -1,0 +1,13 @@
+@import "variables";
+@import "links";
+@import "header";
+@import "countryPage";
+@import "input";
+@import "mixins";
+* body {
+  background-image: $mainGradnient;
+  font-family:$mainFont;
+  max-width: 100vw;
+};
+
+//@media (min-width: 768px)

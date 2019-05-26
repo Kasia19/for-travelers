@@ -7,7 +7,7 @@ const NotFound = () => {
     return (
         <div>
             <h2> ERROR!!!</h2>
-            <NavLink className="btn" to="/"> Return to Home Page</NavLink>
+            <NavLink className="btnNav " to="/"> Return to Home Page</NavLink>
         </div>
     );
 };

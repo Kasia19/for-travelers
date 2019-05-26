@@ -91,3 +91,10 @@ http://battuta.medunes.net/api/country/search/?country={COUNTRY_NAME_HINT}&key=e
 
 googl api key
 321943885376-4ida1e8ug4qrk6vqfcv1pfgb7i0glrtq.apps.googleusercontent.com
+
+
+
+PEXELS API KEY
+563492ad6f9170000100000131f3acbb8e114673a4c5a1609073ab2b
+
+https://api.pexels.com/videos/search?query=example+query&per_page=15&page=1

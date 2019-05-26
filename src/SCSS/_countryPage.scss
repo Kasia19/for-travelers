@@ -1,0 +1,28 @@
+.country-page {
+  @include boxSize()
+  text-align: center;
+}
+.country-page-btn {
+  @include boxSizeSmall();
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.country-info {
+  box-sizing:border-box;
+  padding: 30px;
+}
+.text {
+  font-size: $btnFontSizeSmall;
+  font-weight: bold;
+  @media (min-width: 768px) {
+    font-size: 24px;
+  }
+}
+
+.flag {
+  @media (min-width: 768px) {
+    width: 50%;
+    height: 50%;
+  }
+}

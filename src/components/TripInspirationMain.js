@@ -96,14 +96,15 @@ class TripInspirationMain extends Component {
     render() {
         if(this.props.data === "country"||this.props.data ==="region"||this.props.data ==="language") {
         return (
-            <div>
+            <div className="search">
             <form>
                 <label className="input-label">Type {this.props.data} you want to visit: </label>
-                <input type="text"  value={this.input()} onChange={this.handleOnchange}/>
+                <input className="input" type="text"  value={this.input()} onChange={this.handleOnchange}/>
                 <button className="input-btn btn" onClick={this.handleOnClick}>Search</button>
             </form>
+
                 <ul>
-                    {this.state.byCountry.map(e => (<li key={e.name}><NavLink exact to={`/search/${this.props.data}/${e.name}`} className="btn link-btn country-list" >{e.name}</NavLink></li>))}
+                    {this.state.byCountry.map(e => (<li key={e.name}><NavLink exact to={`/search/${this.props.data}/${e.name}`} className=" link-btn country-list" >{e.name}</NavLink></li>))}
                 </ul>
             </div>
         )}  else {
@@ -112,13 +113,13 @@ class TripInspirationMain extends Component {
                 <form>
                     <label  className="input-label"> {this.props.data} choice: </label>
                     <label  className="input-label"> Language: </label>
-                    <input className="multiple_Language"  type="text" value={this.state.inputMultiLang} onChange={this.handleOnchangeMultiLang}/>
+                    <input className="multiple_Language input"  type="text" value={this.state.inputMultiLang} onChange={this.handleOnchangeMultiLang}/>
                     <label  className="input-label"> Region: </label>
-                    <input className="multiple_Region"  type="text" value={this.state.inputMultiReg} onChange={this.handleOnchangeMultiReg}/>
+                    <input className="multiple_Region input"  type="text" value={this.state.inputMultiReg} onChange={this.handleOnchangeMultiReg}/>
                     <button className="input-btn btn" onClick={this.handleOnClick}>Search</button>
                 </form>
                    <ul>
-                       {this.state.byMultiple.map(e => (<li key={e.name}><NavLink to={`/search/${this.props.data}/${e.name}`} className="btn link-btn country-list" >{e.name}</NavLink></li>))}
+                       {this.state.byMultiple.map(e => (<li key={e.name}><NavLink to={`/search/${this.props.data}/${e.name}`} className=" link-btn country-list" >{e.name}</NavLink></li>))}
                     </ul>
                 </div>
 

@@ -1,0 +1,12 @@
+@mixin boxSize() {
+  box-sizing: border-box;
+  padding: 20px;
+};
+
+@mixin boxSizeSmall() {
+  box-sizing: border-box;
+  padding: 10px;
+};
+@mixin textDecor() {
+  text-shadow: 7px 4px 1px rgba(139, 146, 145, 0.87);
+}

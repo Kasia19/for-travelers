@@ -14,12 +14,13 @@ class Map extends React.Component {
 
     }
 
-
+    // const countryStyle = document.querySelector("path[title="this.props.country"]");
     handleOnClick =() => {
         return (
             this.setState({
                     width:"100%",
                     height:"100vh",
+
 
                 }
             ))
@@ -27,7 +28,7 @@ class Map extends React.Component {
     render() {
         return (
             <div >
-                <button onClick={this.handleOnClick}>Show <span style={{fontSize:"18px",color:"blue"}}>{this.props.country}</span> on map</button>
+                <button onClick={this.handleOnClick}  className="add-btn btn">Show {this.props.country} on map</button>
                 {/*<?xml version="1.0" encoding="utf-8"?>*/}
                 {/*<!-- (c) ammap.com | SVG map of World - High -->*/}
                 <svg style={this.state} xmlns="http://www.w3.org/2000/svg" amcharts="http://amcharts.com/ammap" xlink="http://www.w3.org/1999/xlink" version="1.1">
