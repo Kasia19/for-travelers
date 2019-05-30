@@ -98,3 +98,25 @@ PEXELS API KEY
 563492ad6f9170000100000131f3acbb8e114673a4c5a1609073ab2b
 
 https://api.pexels.com/videos/search?query=example+query&per_page=15&page=1
+
+
+  <div className="photos">
+                <div className="header-photos">
+                <img className="img photo1" src={photo1} alt="budda" height="30%" width="30%"/>
+                </div>
+                <div className="header-photos">
+                <img className="img photo3" src={photo3} alt="architecture" height="30%" width="30%"/>
+                </div>
+                <div className="header-photos">
+                <img className="img photo6" src={photo6} alt="Nepal1" height="30%" width="30%"/>
+                </div>
+                <div className="header-photos">
+                <img className="img photo5" src={photo5} alt="doha" height="30%" width="30%"/>
+                </div>
+                <div className="header-photos">
+                <img className="img photo4" src={photo4} alt="himalayas" height="30%" width="30%"/>
+                </div>
+                <div className="header-photos">
+                <img className="img photo2" src={photo2} alt="desert" height="30%" width="30%"/>
+                </div>
+            </div>

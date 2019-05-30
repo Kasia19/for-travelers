@@ -14,7 +14,12 @@ import Favourite from "./components/Favourite";
 
 
 
-// import './App.css';
+// import './App.css';  zrobić class
+// state favourite pusta tablica + funkcja przyjmie nazwe panstwa  i ddac do tablicy w stanie przekazywanie zdarzen globany stan
+// doprzeslac metode do info o kraju d
+// do sciezki favourite przestac stan App
+
+// dla favvourite i dla country page
 
 const App = () => (
     <div>

@@ -8,30 +8,34 @@ class Map extends React.Component {
         this.state = {
             width:"0",
             height:"0",
-            fill: 'grey',
+            fill: "grey"
 
         };
 
     }
 
-    // const countryStyle = document.querySelector("path[title="this.props.country"]");
     handleOnClick =() => {
-        return (
-            this.setState({
+        const countryCol = document.querySelector(`svg path[title="${this.props.country}"]`);
+         console.log(countryCol);
+         countryCol.style.fill = "red";
+          this.setState({
                     width:"100%",
-                    height:"100vh",
-
-
+                    height:"93vh",
                 }
-            ))
+
+            )
+
+
     };
     render() {
         return (
-            <div >
-                <button onClick={this.handleOnClick}  className="add-btn btn">Show {this.props.country} on map</button>
+            <div className="map">
+                <div className="showMap">
+                    <button onClick={this.handleOnClick}  className="add-btn btn map-btn">Show {this.props.country} on map</button>
+                </div>
                 {/*<?xml version="1.0" encoding="utf-8"?>*/}
                 {/*<!-- (c) ammap.com | SVG map of World - High -->*/}
-                <svg style={this.state} xmlns="http://www.w3.org/2000/svg" amcharts="http://amcharts.com/ammap" xlink="http://www.w3.org/1999/xlink" version="1.1">
+                <svg className="svgMap" style={this.state} xmlns="http://www.w3.org/2000/svg" amcharts="http://amcharts.com/ammap" xlink="http://www.w3.org/1999/xlink" version="1.1">
 
                     <g>
                         <path id="AD" title="Andorra" class="land" d="M480.487,331.376L480.41,331.401L480.152,331.556L480.005,331.61L479.871,331.637L479.766,331.626L479.708,331.535L479.714,331.396L479.69,331.272L479.67,331.205L479.708,331.024L479.794,330.927L479.913,330.847L480.101,330.876L480.499,330.992L480.582,331.101L480.583,331.173L480.51,331.292z"/>

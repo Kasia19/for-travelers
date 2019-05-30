@@ -40,12 +40,22 @@ div .main-header {
 .photos {
   display: flex;
   flex-direction: column;
-
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 
 .img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
+padding-top: 2px;
 
+  @media (min-width: 768px) {
+    width: 50%;
+    height: 50vh;
+    background-size: contain;
+
+  }
 }
 

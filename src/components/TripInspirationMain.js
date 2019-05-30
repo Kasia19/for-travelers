@@ -45,23 +45,31 @@ class TripInspirationMain extends Component {
     };
     getData = (elem) => {
         fetch(`https://restcountries.eu/rest/v2/${elem}`).then(resp =>{
-            if(resp.ok){
-                return resp.json()
-            }
+            if(resp.ok)
+                return resp.json();
+
+
             // else{
-            //     throw new Error("Incorrect {...}")
-            // }
+            //     throw new Error("Check the spelling!!!");}
+
         }).then(json=>{
             // gdy undefined jakis if  jak poprawne to do state
             // console.log(json);
-            this.setState(()=> ({
+            if(json === undefined){
+               console.log("error")
+            }
+            else{this.setState(()=> ({
                 byCountry: [...json],
                 byRegion: [...json],
                 byLanguage: [...json],
                 byMultiple: [...json],
-            }))
+            }))}
+
+
             return json
-        });
+
+        })
+
     };
 
     handleOnClick = (event) => {
@@ -77,8 +85,9 @@ class TripInspirationMain extends Component {
         };
         //https://restcountries.eu/rest/v2/{service}?fields={field};{field};{field}
         if(this.props.data ==="multiple") {
+            console.log(this.getData(`all?fields=${this.state.inputMultiLang};${this.state.inputMultiReg}`));
             return this.getData(`all?fields=${this.state.inputMultiLang};${this.state.inputMultiReg}`);
-        };
+        } ;
     };
 
     input =() =>{
@@ -111,7 +120,7 @@ class TripInspirationMain extends Component {
             return (
                 <div>
                 <form>
-                    <label  className="input-label"> {this.props.data} choice: </label>
+
                     <label  className="input-label"> Language: </label>
                     <input className="multiple_Language input"  type="text" value={this.state.inputMultiLang} onChange={this.handleOnchangeMultiLang}/>
                     <label  className="input-label"> Region: </label>
