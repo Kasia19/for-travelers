@@ -1,12 +1,22 @@
 .country-page {
   @include boxSize()
   text-align: center;
+  h1 {
+    font-size: $btnFontSizeLarge;
+    font-weight: bold;
+    @media (min-width: 768px) {
+      font-size: 36px;
+    }
+  }
 }
 .country-page-btn {
   @include boxSizeSmall();
   display: flex;
   flex-direction: column;
   align-items: center;
+  @media (min-width: 768px) {
+    display: block;
+  }
 }
 .country-info {
   box-sizing:border-box;
@@ -16,11 +26,21 @@
     padding: 30px;
   }
 }
-.text {
-  font-size: $btnFontSizeSmall;
+.search-page h1 {
   font-weight: bold;
+  font-size: $btnFontSizeLarge;
   @media (min-width: 768px) {
-    font-size: 24px;
+    font-size: $fontCountrySarchH1;
+  }
+;
+}
+.text {
+  color: white;
+  font-size: $btnFontSizeMedium;
+  font-weight: bold;
+
+  @media (min-width: 768px) {
+    font-size: 36px;
   }
 }
 

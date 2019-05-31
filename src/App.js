@@ -21,22 +21,36 @@ import Favourite from "./components/Favourite";
 
 // dla favvourite i dla country page
 
-const App = () => (
-    <div>
+class App extends React.Component {
+    constructor(props) {
+        super(props);
 
-      <HashRouter>
-        <Switch>
-          <Route exact path="/" component={TripInspirationHeader }/>
-          <Route exact path="/search/:search(country|region|language|multiple)/:country" component={CountryPage }/>
-          <Route exact path="/favourite" component={Favourite }/>
-            <Route path="/search/:search(country|region|language|multiple)" component={TripInspirationChoice}/>
+        this.state = {
+            favourites: []
+        };
+    }
+    handleAddToFavourite = (countryName)=> {
+        this.setState((prevState) => ({
+            favourites: [...prevState, countryName],
+        }))
 
-          <Route component={NotFound}/>
-        </Switch>
-      </HashRouter>
+    };
 
-    </div>
-  );
+    render() {
+        return (
+        <div>
+        <HashRouter>
+            <Switch>
+                <Route exact path="/" component={TripInspirationHeader}/>
+                <Route exact path="/search/:search(country|region|language|multiple)/:country" component={CountryPage}/>
+                <Route exact path="/favourite" render={props => <Favourite {...props} list={this.state.favourites}/>}/>
+                <Route path="/search/:search(country|region|language|multiple)" component={TripInspirationChoice}/>
+                <Route component={NotFound}/>
+            </Switch>
+        </HashRouter>
+        </div>
+        )}
+};
 
 
 export default App;

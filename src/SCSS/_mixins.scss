@@ -8,5 +8,12 @@
   padding: 10px;
 };
 @mixin textDecor() {
-  text-shadow: 7px 4px 1px rgba(139, 146, 145, 0.87);
-}
+  color: #FFFFFF;
+
+  text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #ffffff;
+};
+
+@mixin textDecorTitle() {
+  color:  #B3199E;
+  text-shadow: 0 0 5px #B3199E, 0 0 10px #B3199E, 0 0 15px #B3199E, 0 0 20px #B3199E;
+};

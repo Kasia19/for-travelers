@@ -6,13 +6,15 @@
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SCSS/_countryPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_countryPage.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SCSS/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SCSS/_links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_links_btn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCSS/_input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCSS/_links_btn.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_links_btn.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCSS/_mixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_mixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SCSS/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SCSS/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/SCSS/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/URL" beforeDir="false" afterPath="$PROJECT_DIR$/src/URL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/CountryPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountryPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CountryInfo.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CountryInfo.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Favourite.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Favourite.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Map.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TripInspirationHeader.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TripInspirationHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/TripInspirationMain.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TripInspirationMain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TripInspirationChoice.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TripInspirationChoice.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,7 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.17534077">
+    <splitter split-orientation="horizontal" split-proportion="0.58674103">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
@@ -33,18 +35,6 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="204">
                   <caret line="12" selection-start-line="12" selection-end-line="12" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/NotFound.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="136">
-                  <caret line="8" column="30" lean-forward="true" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -64,20 +54,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/SCSS/main.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="170">
-                  <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/SCSS/_links_btn.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="609">
-                  <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
+                <state relative-caret-position="238">
+                  <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
                 </state>
               </provider>
             </entry>
@@ -85,8 +66,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/SCSS/_input.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="14">
-                  <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="14" selection-end-column="3" />
+                <state relative-caret-position="-17">
+                  <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -94,8 +75,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/SCSS/_header.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="531">
-                  <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
+                <state relative-caret-position="269">
+                  <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
                 </state>
               </provider>
             </entry>
@@ -103,8 +84,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/SCSS/_countryPage.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="660">
-                  <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+                <state relative-caret-position="544">
+                  <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
@@ -112,8 +93,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/CountryInfo.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="405">
-                  <caret line="48" column="34" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="34" />
+                <state relative-caret-position="629">
+                  <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/App.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="306">
+                  <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -122,13 +115,10 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/App.js">
+            <entry file="file://$PROJECT_DIR$/src/SCSS/_links_btn.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="187">
+                  <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
                 </state>
               </provider>
             </entry>
@@ -149,8 +139,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Favourite.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="340">
-                  <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+                <state relative-caret-position="357">
+                  <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -159,10 +149,19 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/SCSS/_mixins.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="272">
+                  <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="17" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/TripInspirationHeader.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="153">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
+                <state relative-caret-position="323">
+                  <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="30" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -179,11 +178,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/SCSS/_variables.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="119">
-                  <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+                <state relative-caret-position="68">
+                  <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
                 </state>
               </provider>
             </entry>
@@ -191,8 +190,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/TripInspirationChoice.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
-                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                <state relative-caret-position="493">
+                  <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -203,8 +202,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/TripInspirationMain.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="660">
-                  <caret line="122" selection-start-line="122" selection-end-line="122" />
+                <state relative-caret-position="439">
+                  <caret line="115" column="161" selection-start-line="115" selection-start-column="149" selection-end-line="115" selection-end-column="161" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -215,17 +214,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/Map.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="37" column="38" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="38" />
+                <state relative-caret-position="598">
+                  <caret line="233" column="63" selection-start-line="233" selection-start-column="63" selection-end-line="233" selection-end-column="63" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/CountryPage.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="306">
-                  <caret line="18" column="110" selection-start-line="18" selection-start-column="110" selection-end-line="18" selection-end-column="110" />
+                <state relative-caret-position="51">
+                  <caret line="3" selection-start-line="3" selection-end-line="3" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -265,25 +264,25 @@
         <option value="$PROJECT_DIR$/SCSS/main.scss" />
         <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/src/components/TripInspiration.js" />
-        <option value="$PROJECT_DIR$/src/components/Favourite.js" />
         <option value="$PROJECT_DIR$/src/components/NotFound.js" />
         <option value="$PROJECT_DIR$/src/components/TripInspirationButtons.js" />
-        <option value="$PROJECT_DIR$/src/components/CountryInfo.js" />
-        <option value="$PROJECT_DIR$/src/SCSS/_mixins.scss" />
         <option value="$PROJECT_DIR$/src/SCSS/_links.scss" />
-        <option value="$PROJECT_DIR$/src/components/TripInspirationChoice.js" />
-        <option value="$PROJECT_DIR$/src/SCSS/_variables.scss" />
-        <option value="$PROJECT_DIR$/src/SCSS/_input.scss" />
         <option value="$PROJECT_DIR$/src/URL" />
-        <option value="$PROJECT_DIR$/src/SCSS/_header.scss" />
-        <option value="$PROJECT_DIR$/src/App.js" />
-        <option value="$PROJECT_DIR$/src/components/Map.js" />
-        <option value="$PROJECT_DIR$/src/SCSS/_links_btn.scss" />
-        <option value="$PROJECT_DIR$/src/SCSS/_countryPage.scss" />
-        <option value="$PROJECT_DIR$/src/SCSS/main.scss" />
         <option value="$PROJECT_DIR$/src/components/TripInspirationMain.js" />
+        <option value="$PROJECT_DIR$/src/SCSS/_input.scss" />
+        <option value="$PROJECT_DIR$/src/SCSS/_mixins.scss" />
+        <option value="$PROJECT_DIR$/src/SCSS/main.scss" />
         <option value="$PROJECT_DIR$/src/components/TripInspirationHeader.js" />
+        <option value="$PROJECT_DIR$/src/components/TripInspirationChoice.js" />
+        <option value="$PROJECT_DIR$/src/SCSS/_header.scss" />
+        <option value="$PROJECT_DIR$/src/SCSS/_links_btn.scss" />
         <option value="$PROJECT_DIR$/src/components/CountryPage.js" />
+        <option value="$PROJECT_DIR$/src/components/CountryInfo.js" />
+        <option value="$PROJECT_DIR$/src/components/Favourite.js" />
+        <option value="$PROJECT_DIR$/src/components/Map.js" />
+        <option value="$PROJECT_DIR$/src/SCSS/_countryPage.scss" />
+        <option value="$PROJECT_DIR$/src/SCSS/_variables.scss" />
+        <option value="$PROJECT_DIR$/src/App.js" />
       </list>
     </option>
   </component>
@@ -309,24 +308,7 @@
             <path>
               <item name="for-travelers" type="b2602c69:ProjectViewProjectNode" />
               <item name="for-travelers" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="for-travelers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="for-travelers" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="for-travelers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="for-travelers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="for-travelers" type="b2602c69:ProjectViewProjectNode" />
-              <item name="for-travelers" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="SCSS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -403,7 +385,7 @@
       <updated>1557946742254</updated>
       <workItem from="1557946743339" duration="869000" />
       <workItem from="1557999329587" duration="96408000" />
-      <workItem from="1558785624244" duration="49607000" />
+      <workItem from="1558785624244" duration="67770000" />
     </task>
     <task id="LOCAL-00001" summary="Trip Inspiration start">
       <created>1558004777150</created>
@@ -468,11 +450,18 @@
       <option name="project" value="LOCAL" />
       <updated>1558895782639</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Trip Inspiration 30.05.2019 v8">
+      <created>1559243808060</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1559243808060</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146884000" />
+    <option name="totallyTimeSpent" value="165047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
@@ -491,8 +480,8 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50033045" side_tool="true" weight="0.33002833" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49966952" visible="true" weight="0.19609967" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50105375" side_tool="true" weight="0.19609967" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49894625" visible="true" weight="0.19609967" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -530,7 +519,8 @@
     <MESSAGE value="Trip Inspiration 23.05.2019 v5" />
     <MESSAGE value="Trip Inspiration 24.05.2019 v6" />
     <MESSAGE value="Trip Inspiration 26.05.2019 v7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Trip Inspiration 26.05.2019 v7" />
+    <MESSAGE value="Trip Inspiration 30.05.2019 v8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Trip Inspiration 30.05.2019 v8" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/logo.svg" />
@@ -589,37 +579,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/SCSS/_mixins.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SCSS/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SCSS/_header.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="51" column="11" selection-start-line="51" selection-start-column="11" selection-end-line="51" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TripInspirationChoice.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/URL">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1863">
@@ -637,58 +596,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/SCSS/_mixins.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/CountryInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="30" selection-end-line="48" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SCSS/_input.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="37" column="38" selection-start-line="37" selection-start-column="32" selection-end-line="37" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SCSS/_links_btn.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="37" column="15" selection-start-line="37" selection-start-column="15" selection-end-line="37" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/SCSS/_countryPage.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+        <state relative-caret-position="272">
+          <caret line="16" column="10" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SCSS/main.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="14" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -699,30 +617,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Favourite.js">
+    <entry file="file://$PROJECT_DIR$/src/SCSS/_input.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="-17">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SCSS/_header.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="56" column="11" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SCSS/_links_btn.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/TripInspirationMain.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="122" selection-start-line="122" selection-end-line="122" />
+        <state relative-caret-position="439">
+          <caret line="115" column="161" selection-start-line="115" selection-start-column="149" selection-end-line="115" selection-end-column="161" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/TripInspirationHeader.js">
+    <entry file="file://$PROJECT_DIR$/src/components/TripInspirationChoice.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="493">
+          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -731,8 +660,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/CountryPage.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Favourite.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/CountryInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Map.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="233" column="63" selection-start-line="233" selection-start-column="63" selection-end-line="233" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/TripInspirationHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SCSS/_countryPage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/SCSS/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
-          <caret line="18" column="110" selection-start-line="18" selection-start-column="110" selection-end-line="18" selection-end-column="110" />
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

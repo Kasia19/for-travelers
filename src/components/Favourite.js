@@ -7,22 +7,20 @@ class Favourite extends React.Component {
         super(props);
 
         this.state = {
-            favourite: []
+
         };
 
     }
 
-    componentDidMount() {
-        this.setState((prevState) =>({
-            favourite: [...prevState, ]
-        }))
-    }
 
     render() {
         return (
             <div>
-favourite
+                <h1 className="h1">Favourite countries</h1>
                 <NavLink to="/" className="btn link-btn return-btn">Return to Home Page</NavLink>
+                <ul>
+
+                </ul>
 
             </div>
         );
