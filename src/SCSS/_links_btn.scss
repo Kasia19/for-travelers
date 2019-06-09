@@ -6,6 +6,8 @@
   box-sizing: border-box;
 
 }
+
+
  .btnNav,  .btn {
    box-sizing: border-box;
    border: 1px solid grey;
@@ -31,6 +33,15 @@
      color: white;
    }
  }
+
+   //buttony które na razie nie maja funkcjonalności - usunac styl gdy dodam dodawanie do ulubionych i wyszukiwanie multi
+   a.multi-btn, a.favourite-btn, button.favourite-btn {
+     color: #e0e0e0;
+     &:hover {
+       background-color: cornflowerblue;
+       color: cornflowerblue;
+     }
+  }
   .country-list {
     &:hover {
       color: $fontColorList;

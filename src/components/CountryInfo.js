@@ -47,7 +47,7 @@ class CountryInfo extends React.Component {
                 <p className="text">{this.props.countryName} lies in {[...this.state.country].map(e => e.subregion)}</p>
                 <p className="text">The official language in {this.props.countryName} is {[...this.state.country].map(e => e.languages[0].name)} ({[...this.state.country].map(e => e.languages[0].nativeName)})</p>
                 <p className="text">The currency of {this.props.countryName} is {[...this.state.country].map(e => e.currencies[0].name)} ({[...this.state.country].map(e => e.currencies[0].code)})</p>
-                <button onClick={this.handleOnClick} className="add-btn btn">Add {this.props.countryName} to Favourite</button>
+                <button onClick={this.handleOnClick} className="add-btn btn favourite-btn">Add {this.props.countryName} to Favourite</button>
                 <Map country={this.props.countryName} />
             </div>
         );
