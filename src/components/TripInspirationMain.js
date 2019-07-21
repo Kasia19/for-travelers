@@ -103,7 +103,7 @@ class TripInspirationMain extends Component {
 
 
     render() {
-        if(this.props.data === "country"||this.props.data ==="region"||this.props.data ==="language") {
+        if(this.props.data === "country"||this.props.data ==="region") {
         return (
             <div className="search">
             <form>
@@ -116,7 +116,20 @@ class TripInspirationMain extends Component {
                     {this.state.byCountry.map(e => (<li key={e.name}><NavLink exact to={`/search/${this.props.data}/${e.name}`} className=" link-btn country-list" >{e.name}</NavLink></li>))}
                 </ul>
             </div>
-        )}  else {
+        )}  else if (this.props.data ==="language"){
+            return (
+                <div className="search">
+                    <form>
+                        <label className="input-label">Type shortcut of {this.props.data} which is used in place you want to visit: </label>
+                        <input className="input" type="text"  value={this.input()} onChange={this.handleOnchange}/>
+                        <button className="input-btn btn" onClick={this.handleOnClick}>Search</button>
+                    </form>
+
+                    <ul>
+                        {this.state.byCountry.map(e => (<li key={e.name}><NavLink exact to={`/search/${this.props.data}/${e.name}`} className=" link-btn country-list" >{e.name}</NavLink></li>))}
+                    </ul>
+                </div>
+            )} else {
             return (
                 <div>
                 <form>

@@ -8,7 +8,7 @@ class CountryInfo extends React.Component {
 
         this.state = {
             country: [],
-            favoutite:[]
+            favourite:[]
         };
     }
 
