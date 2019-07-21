@@ -18,9 +18,6 @@ class CountryInfo extends React.Component {
                     if(resp.ok) {
                         return resp.json()
                     }
-                    // else{
-                    //     throw new Error("Incorrect country")
-                    //     }
                 })
                 .then (json => {
                     console.log(json);
@@ -33,11 +30,7 @@ class CountryInfo extends React.Component {
 
                 })
     };
-
-
-
     render() {
-
         return (
             <div className="country-info">
                 <p className="text">Capital of {this.props.countryName} is {[...this.state.country].map(e => e.capital)}</p>
